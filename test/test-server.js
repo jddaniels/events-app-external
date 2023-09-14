@@ -14,7 +14,7 @@ describe('GET /', function () {
       .reply(200, {
         "status": 200,
         "events": [
-          { title: 'an event', id: 1234, description: 'something really cool', location: 'Joes pizza', likes: 0 },
+          { title: 'an event', id: 1234, description: 'something really really gcool', location: 'Joes pizza', likes: 0 },
           { title: 'another event', id: 5678, description: 'something even cooler', location: 'Johns pizza', likes: 0 }
         ]
       });
